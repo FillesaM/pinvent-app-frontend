@@ -74,7 +74,7 @@ const EditProfile = () => {
                     photo: profileImg ? imageUrl : profile.photo
                 }
 
-                const data = await updateProfile(formData)
+                await updateProfile(formData)
                 toast.success("User profile updated")
                 navigate('/profile')
                 setIsLoading(false)
