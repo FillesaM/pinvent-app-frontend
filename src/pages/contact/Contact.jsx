@@ -12,7 +12,7 @@ export const BACKEND_URL = process.env.REACT_APP_BACKEND_URL
 
 const Contact = () => {
     const [subject, setSubject] = useState("")
-    const [message, setMessage] = useState("second")
+    const [message, setMessage] = useState("")
 
     const data = {
         subject,
