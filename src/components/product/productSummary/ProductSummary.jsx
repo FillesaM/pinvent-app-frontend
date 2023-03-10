@@ -31,7 +31,7 @@ useEffect(()=>{
 
   return (
     <div className='product-summary'>
-      <h3 className='--mt'>Inventory Stats</h3>
+      <h3 className='--mt inventory'>Inventory Stats</h3>
       <div className='info-summary'>
         <InfoBox icon={productIcon} title={"Total Products"} count={products.length} bgColor="card1"/>
         <InfoBox icon={eraningIcon} title={"Total Store Value"} count={`$ ${formatNumbers(totalStoreValue.toFixed(2))}`} bgColor="card2"/>
